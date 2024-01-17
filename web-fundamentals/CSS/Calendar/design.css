@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper {
+    width: 660px;
+    margin: 0px auto;
+}
+#firstLine {
+    display: inline;
+    
+}
+#firstCalendarHeader {
+    min-height: 40px;
+    width: 130px;
+    
+}
+#textHeader{
+    display: inline-block;
+    padding:0px 100px 20px 100px;
+}
+#secondCalendarHeader {
+    min-height: 40px;
+    width: 130px;
+    
+}
+.day h2{
+    display: inline-block;
+    outline: auto;
+    padding: 8px 20px; 
+    margin: 5px;
+}
+.dates h3{
+    display: inline-block;
+    outline: auto;
+    padding: 9px 30px;
+    margin: 6px;
+
+}
+.blueboxes{
+    background-color: #5B9BD5;
+}
+.greenboxes{
+    background-color: #A9D08E;
+}
+#firstDates div {
+    padding: 19px 40px; 
+    margin: 6px; 
+    background-color: #E7E6E6;
+    display: inline-block;
+    vertical-align: top;
+}
+#firstDates h3{
+    display: inline-block;
+    outline: auto;
+    padding: 8px 32px 8px 34px;
+    margin: 6px;
+    vertical-align: top;
+}
+.second{
+    display: inline-block;
+    outline: auto;
+    padding: 9px 34.5px;
+    margin: 6px;
+}
+#ten{
+    display: inline-block;
+    outline: auto;
+    padding: 9px 30px;
+    margin: 6px;
+}
+
