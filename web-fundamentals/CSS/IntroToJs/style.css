@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#nav{
+    min-height: 800px;
+    width: 300px;
+    background-color: #F5F2F0;
+    color: #CACECB;
+}

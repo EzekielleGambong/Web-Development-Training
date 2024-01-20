@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#nav{
+    min-height: 100px;
+    width: 1490px;
+    background-color: #171D24;
+}
+    #logo{
+        width: 200px;
+        vertical-align: middle;
+        margin: 20px 20px 20px 350px;
+        
+    }
+    #store{
+        display: inline-block;
+        color: #1995F1;
+        text-decoration: underline;
+        margin-right: 5px;
+    }
+    #community, #about, #support{
+        display: inline-block;
+        color: #D8DADB;
+        margin: 5px;
+    }
+#mainbody{
+    background-color: #1A2B3C;
+    padding-bottom: 80px;
+}
+    #sidebar{
+        background-color: #1A2B3C;
+        min-height: 600px;
+        width: 380px;
+        display: inline-block;
+    }
+        .sideContents{
+            color: #7A899A;
+            padding-left: 130px;
+        }
+        .sideTitle{
+            color: #536F86;
+            padding: 20px 0px 10px 130px;
+        }
+    #bodyBox{
+        background-color: #1A2B3C;
+        min-height: 600px;
+        width: 970px;
+        display: inline-block;
+        vertical-align: top;
+    }
+        #bodyboxNav{
+            background-color: #203B81;
+            margin-top: 15px;
+        }
+            .bodyboxnavContents{
+                display: inline-block;
+                color: #EBDAC6;
+                padding: 8px 0px 8px 0px;
+            }
+            #yourstore{
+                padding-left: 11px;
+                /* padding-right: 50px; */
+            }
+            #bodyboxNav p{
+                padding-right: 50px;
+            }
+            #bar{
+                color: #305d8a;
+                margin-left: 45px;
+            }
+        #bodyboxContents{
+           margin: 40px 0px 5px 0px;
+        }
+            #specialoff{
+                margin-bottom: 5px;
+                color: #EBDAC6;
+            }
+            #firstbox{
+                background-color: rgb(0, 255, 26);
+                min-height: 420px;
+                width: 340px;
+                display: inline-block;
+                margin-right: 5px;
+            }
+            #secondbox{
+                background-color: rgb(0, 0, 255);
+                min-height: 420px;
+                width: 340px;
+                display: inline-block;
+                margin-right: 5px;
+            }
+            #smallContainer {
+                display: inline-block;
+            }
+                #thirdbox{
+                    background-color: rgb(255, 0, 187);
+                    min-height: 200px;
+                    width: 270px;
+                    margin-bottom: 10px;
+                    vertical-align: top;
+                }
+                #fourthbox{
+                    background-color: rgb(225, 255, 0);
+                    min-height: 200px;
+                    width: 270px;
+                    display: block;
+                }
+        #bodyboxFooter{
+            margin: 80px 0px 10px 0px;
+        }        
+            .miniboxes{
+                display: inline-block;
+            }
+            #first{
+                min-height: 220px;
+                width: 230px;
+                margin-right: 9px;
+                background-color: aqua;
+            } 
+            #second{
+                min-height: 220px;
+                width: 230px;
+                background-color: aqua;
+                margin-right: 9px;
+            } 
+            #third{
+                min-height: 220px;
+                width: 230px;
+                background-color: aqua;
+                margin-right: 9px;
+            } 
+            #fourth{
+                min-height: 220px;
+                width: 230px;
+                background-color: aqua;
+            }
+            #browsefooter{
+                margin-bottom: 5px;
+                color: #EBDAC6;
+            }
+#footer{
+    min-height: 80px;
+    width: 1490px;
+    background-color: #171D24;
+}
+    #valve{
+        width: 100px;
+        vertical-align: middle;
+        margin: 20px 2px 20px 300px;
+        
+    }
+    #bottomlogo{
+        width: 100px;
+        vertical-align: middle;
+        /* margin: 20px 20px 20px 350px; */
+    }
+    #descriptionoffooter{
+        color: #EBDAC6;
+        display: inline-block;
+    }

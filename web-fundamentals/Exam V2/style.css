@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Navigation Bar */
+#nav{
+    min-height: 60px;
+    width: 1495px;
+    background-color: #FFFFFF;
+}
+#logonav{
+    display: inline-block;
+    padding: 15px 0px 10px 100px;
+}
+#logo{
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+#titlelogo{
+    display: inline-block;
+    color: #E21A70;
+    vertical-align: middle;
+}
+#buttonnav{
+    display: inline-block;
+    vertical-align: auto;
+    margin-left: 900px;
+}
+#login,
+#signup {
+    margin-right: 10px;
+    padding: 6px 16px;
+    font-size: 14       px;
+    text-align: center;
+    border: 2px solid #E21A70;
+    color: #E21A70;
+    border-radius: 8px;
+}
+#signup{
+    background-color: #E21A70;
+    color: #FFFFFF;
+}
+/* mainbody */
+#searchbody{
+    background-color: #F7F7F7;
+    height: 600px;
+    width: 1495px;
+}
+#searching{
+    padding-top: 100px;
+    padding-left: 100px;
+    display: inline-block;
+}
+#cointainer{
+    background-color: #ffffff;
+    width: 650px;
+    height: 60px;
+    border-radius: 8px;
+}
+#bar{
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid;
+    width: 510px;
+    display: inline-block;
+    border-color: #EEEEEE;
+    border-radius: 5px;
+}
+#findfood {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 10px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #E21A70;
+    border: 2px solid;
+    border-color: #E21A70;
+    color: #ffffff;
+    border-radius: 5px;
+}
+#texbelow{
+    display: block;
+}
+#searchp{
+    font-size: 40px;
+}
+#photocontainer{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 40px;
+    vertical-align: middle;
+}
+#photocontainer img{
+    width: 700px;
+}
+/* locationbody */
+#locationbody{
+    margin: 80px 100px 100px 100px;
+}
+#findlocation{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#firstContainer, #secondContainer, #thirdContainer, #fourthContainer{
+    display: inline-block;
+    vertical-align: top;
+}
+#firstbox, #thirdbox, #fifthbox, #seventhbox{
+    min-height: 220px;
+    width: 300px;
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+#secondbox, #fourthbox, #sixthbox, #eighthbox{
+    min-height: 220px;
+    width: 300px;
+    display: block;
+}
+#firstContainer, #secondContainer, #thirdContainer{
+    margin-right: 20px;
+}
+.images{
+    min-height: 220px;
+    width: 300px;
+    border-radius: 8px;
+}
+.titleoflocation p{
+    width: 80px;
+    background-color: #F7F7F7;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+/* infobody*/
+#infobody{
+    margin: 80px 100px 100px 100px;
+}
+#putustitle{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#infobodycontainer{
+    width: 1270px;
+    min-height: 400px;
+    border-radius: 10px;
+    background-color: #E21A70;
+}
+#infoabout{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+#dl{
+    font-size: 20px;
+}
+/* footer */
+#footer{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#foodlogo{
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#socmedlogo{
+    width: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 1110px;
+}
