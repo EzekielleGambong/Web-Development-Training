@@ -6,5 +6,43 @@
     min-height: 800px;
     width: 300px;
     background-color: #F5F2F0;
+    display: inline-block;
+    
+}
+#nav #above{
+    padding-top: 20px;
+}
+#nav p{
+    padding-top: 5px;
+    padding-left: 30px;
+}
+#sidebrowser{
+    display: inline-block;
+    vertical-align: top;
+    max-width: 720px;
+    margin: 20px 100px;
+    padding: 20px;
+}
+#three{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+a{
+    display: inline-block;
+}
+
+#inlinetext{
+    display: inline-block;
+}
+#four{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#five{
+    border: 1px solid black;
+    padding: 20px;
+}
+.other{
     color: #CACECB;
 }

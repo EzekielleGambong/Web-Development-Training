@@ -9,9 +9,9 @@
     <body>
         <div id="main">
             <div id="nav">
-                <p>Chapter</p>
-                <p>An introduction</p>
-                <p>Lesson navigation</p>
+                <p id="above" class="other">Chapter</p>
+                <p>An introduction</p><br>
+                <p class="other">Lesson navigation</p>
                 <p>What is JavaScript</p>
                 <p>What can in-browser JavaScript do?</p>
                 <p>What makes JavaScript unique?</p>
@@ -20,7 +20,37 @@
                 <p>Comments</p>
             </div>
             <div id="sidebrowser">
-                
+                <div id="one" >
+                    <h1>An Introduction to JavaScript</h1>
+                    <p>Let's see what's so special about JavaScript, what we can achieve with it, and what other technologies play well with it.</p>
+                </div>
+                <div id="two" >
+                    <h1>What is JavaScript?</h1>
+                    <p>JavaScript was initially created to "make web pages alive".</p><br>
+                    <p>The programs in this language are called scripts. They can be written right in a web page's HTML and run automatically as the page loads.</p><br>
+                    <p>Scripts are provided and executed as plain text. They don't need special preparation or compilation to run.</p><br>
+                    <p>In this aspect, JavaScript is very different from another language called Java.</p><br>
+                </div>
+                <div id="three" >
+                    <p>When JavaScript was created, it initially had another name: "LiveScript". But Java was very popular at that time, so it was decided that positioning a new language as a "younger brother" of Java would help.</p><br>
+                    <p>But as it evolved, JavaScript became a fully independent language with its own specification called </p>
+                    <a href="">ECMAScript,</a>
+                    <p id="inlinetext" >,and now it has no relation to Java at all.</p><br>
+                </div>
+                <div id="four" >
+                    <p>Today, JavaScript can execute not only in the browser, but also on the server, or actually on any device that has a special program called the JavaScript engine.</p>
+                </div>
+                <div id="five" >
+                    <h1>How do engines work?</h1><br>
+                    <p>Engines are complicated. But the basics are easy.</p>
+                    <ol>
+                        <li>The engine (embedded if it's a browser) reads ("parses") the script.</li>
+                        <li>Then it converts ("compiles") the script to the machine language.</li>
+                        <li>And then the machine code runs, pretty fast.</li>
+                        <br><br>
+                        <p>The engine applies optimizations at each step of the process. It even watches the compiled script as it runs, analyzes the data that flows through it, and further optimizes the machine code based on that knowledge.</p>
+                    </ol>
+                </div>
             </div>
         </div>
     </body>
